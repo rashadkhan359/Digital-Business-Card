@@ -1,0 +1,126 @@
+#root {
+    margin: 0 auto;
+}
+
+main {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 44px;
+}
+
+.bsn--card {
+    border-radius: 10px;
+    width: 317px;
+}
+
+.bsncard--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161619;
+    padding: 19.5px;
+    border-radius: 0 0 10px 10px;
+}
+
+.bsncard--footer--list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.bsncard--footer-list-items{
+    transition: all ease-in-out 300ms;
+}
+
+.bsncard--footer-list-items:hover{
+    transform: scale(120%);
+}
+
+.footer--icon {
+    width: 25px;
+    height: 25px;
+}
+
+.bsn--card--top {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0 0;
+}
+
+.bsn--main--container {
+    background-color: #1A1B21;
+    padding: 35px;
+}
+
+.bsn--main--header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.bsn--main--header>h1 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.bsn--main--header > p {
+    color: #F3BF99;
+    margin: 0;
+    font-size: 12.8px;
+}
+
+.bsn--interaction {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.bsn--i--button {
+    display: flex;
+    width: 115px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    padding:9px 0 9px 0;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.bsn--i--button.email {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    color: #374151;
+}
+
+.bsn--i--button.linkedin {
+    background-color: #5093E2;
+    border: 1px solid #000000;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bsn--i--button.email>img {
+    width: 13px;
+    height: 10px;
+}
+
+.bsn--i--button.linkedin>img {
+    width: 13px;
+    height: 13px;
+}
+
+.bsn--content > h3{
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.bsn--content > p{
+    margin:0;
+    font-size: 11px;
+}
